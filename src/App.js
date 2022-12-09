@@ -1,12 +1,14 @@
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Wave from "./components/wave/Wave";
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <Home />
+      <Wave />
     </div>
   );
 }
