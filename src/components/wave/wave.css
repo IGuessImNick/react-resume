@@ -1,9 +1,10 @@
 .wave {
-    height: 10vh;
+    height: 30vh;
+    border: 1px solid red
 }
 
 @media screen and (max-width: 480px) {
     .wave {
-        top: -10px;
+        top: -300px;
     }
 }
