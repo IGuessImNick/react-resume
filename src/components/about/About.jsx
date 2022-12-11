@@ -27,8 +27,13 @@ export default function About() {
                         <li className="aboutList">asdf</li>
                     </ul>
                 </div>
-                <div className="aboutButtons">
-                    <p>zxcv</p>
+                <div className="aboutButtonsContainer">
+                    <div className="aboutButtonLeft">
+                        <button className="hireBtn">Hire Me</button>
+                    </div>
+                    <div className="aboutButtonRight">
+                        <button className="resumeBtn">Download Resume</button>
+                    </div>
                 </div>
             </div>
         </div>
