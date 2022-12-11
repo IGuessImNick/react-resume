@@ -19,7 +19,13 @@ export default function About() {
                     <p>I am a junior full stack web developer with experience in React.js, MongoDB, and Node.js. My hobbies including Game Design, music, etc. blah blah blah</p>
                 </div>
                 <div className="aboutHighlights">
-                    <p>qwer</p>
+                    <p className="aboutHighlightsIntro">Here are some highlights about me:</p>
+                    <ul className="aboutHighlightsList">
+                        <li className="aboutList">asdf</li>
+                        <li className="aboutList">asdf</li>
+                        <li className="aboutList">asdf</li>
+                        <li className="aboutList">asdf</li>
+                    </ul>
                 </div>
                 <div className="aboutButtons">
                     <p>zxcv</p>
