@@ -32,7 +32,7 @@ export default function About() {
                         <button className="hireBtn">Hire Me</button>
                     </div>
                     <div className="aboutButtonRight">
-                        <button className="resumeBtn">Download Resume</button>
+                        <button className="resumeBtn"> Resume</button>
                     </div>
                 </div>
             </div>

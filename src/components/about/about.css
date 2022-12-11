@@ -87,24 +87,44 @@
     padding: 10px;
 }
 
-.aboutButtons {
+.aboutButtonsContainer {
+    display: flex;
+    width: 45%;
     margin: 10px;
     padding: 10px;
     align-items: center;
     justify-content: center;
     margin-left: 10px;
     text-align: center;
+    /* border: 1px solid red; */
+    bottom: 0;
+    position: absolute;
+}
+
+.aboutButtonLeft {
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutButtonRight {
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
 }
 
 .hireBtn {
-    /* display: flex;
-    flex: 1; */
+    width: 70%;
     align-items: center;
     justify-content: space-around;
     margin-right: 10px;
     border: none;
     line-height: 20px;
-    background-color: teal;
+    background-color: #59b256;
     border-radius: 20px;
     padding: 10px;
     cursor: pointer;
@@ -113,6 +133,14 @@
 .resumeBtn {
     /* display: flex;
     flex: 1; */
+    width: 70%;
     align-items: center;
     justify-content: space-around;
+    margin-right: 10px;
+    border: none;
+    line-height: 20px;
+    background-color: #59b256;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
